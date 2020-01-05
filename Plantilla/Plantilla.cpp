@@ -9,7 +9,7 @@ using namespace std;
 
 // prototipo de funcion y plantilla
 
-// plantilla para calcilar el valor absoluto de un numero de cualquier tipo
+// plantilla para calcular el valor absoluto de un numero de cualquier tipo
 template<class TIPOD>
 void MostraAbsoluto(TIPOD);
 
