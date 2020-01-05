@@ -10,8 +10,6 @@ using namespace std;
 int encontrarMax(int, int);
 
 
-
-
 int main()
 {
     int n1, n2; // numeros de los que vamos a obtener el mayor
