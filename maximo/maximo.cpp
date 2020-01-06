@@ -40,8 +40,5 @@ tipo maximo(tipo valor1,tipo valor2,tipo valor3)
     if (valor3 > max) max = valor3;
 
     return max;
-
-
-
 }
 
