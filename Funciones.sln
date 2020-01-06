@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Plantilla", "Plantilla\Plan
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Multiplicar", "Multiplicar\Multiplicar.vcxproj", "{B3712A65-AB40-4398-B4C2-60ECCE211576}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maximo", "maximo\maximo.vcxproj", "{5D68E2E0-0E10-4F36-B131-C50F483BF409}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{B3712A65-AB40-4398-B4C2-60ECCE211576}.Release|x64.Build.0 = Release|x64
 		{B3712A65-AB40-4398-B4C2-60ECCE211576}.Release|x86.ActiveCfg = Release|Win32
 		{B3712A65-AB40-4398-B4C2-60ECCE211576}.Release|x86.Build.0 = Release|Win32
+		{5D68E2E0-0E10-4F36-B131-C50F483BF409}.Debug|x64.ActiveCfg = Debug|x64
+		{5D68E2E0-0E10-4F36-B131-C50F483BF409}.Debug|x64.Build.0 = Debug|x64
+		{5D68E2E0-0E10-4F36-B131-C50F483BF409}.Debug|x86.ActiveCfg = Debug|Win32
+		{5D68E2E0-0E10-4F36-B131-C50F483BF409}.Debug|x86.Build.0 = Debug|Win32
+		{5D68E2E0-0E10-4F36-B131-C50F483BF409}.Release|x64.ActiveCfg = Release|x64
+		{5D68E2E0-0E10-4F36-B131-C50F483BF409}.Release|x64.Build.0 = Release|x64
+		{5D68E2E0-0E10-4F36-B131-C50F483BF409}.Release|x86.ActiveCfg = Release|Win32
+		{5D68E2E0-0E10-4F36-B131-C50F483BF409}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
