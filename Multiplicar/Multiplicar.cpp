@@ -9,7 +9,7 @@
 
 using namespace std;
 
-// prototipo de plantillas a usar
+// prototipo de plantillas a usar y declaracion de funciones
 template<class tipo,class tipo2>
 tipo multi(tipo,tipo2); // funcion para multiplicar dos variables
 
@@ -19,7 +19,7 @@ tipo cuad(tipo); // funcion para elevar al cuadrado un numero
 template<class tipo1>
 tipo1 elev(tipo1,int); // funcion para elevar un numero a otro entero
 
-float partefraccionaria(float);
+float partefraccionaria(float); // obtener la parte decimal de un número real
 
 
 int main()
