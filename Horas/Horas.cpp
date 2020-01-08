@@ -20,7 +20,7 @@ int main()
     cout << "Introduce el tiempo  "; cin >> tsegundos;
 
 
-    cout << "El tiempo es segundos a desglosar es " << tsegundos << "sg " << endl;
+    cout << "El tiempo es segundos a desglosar es " << tsegundos << " sg " << endl;
 
     tiempo(tsegundos, horas, minutos, segundos);
 
