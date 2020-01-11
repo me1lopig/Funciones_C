@@ -18,6 +18,7 @@ int main()
    
 
     cout << "Introduce el numeros de dias "; cin >> dias;
+
     
     fecha(dias, year, mes, dia);
 
@@ -34,17 +35,24 @@ void fecha(int dias, int& year, int& mes, int& dia)
 {
     // se introduce un numero de dias
     // descompone la  fecha en años, meses y dias
+    // meses de 30 dias
+    // año de 12 meses=12*30=360 dias/año
 
-    year = dias / 365; // calculo de los años
-    dias %= 365; // dias libres de meses despues de quitarle los años
+    year = dias / 360; // calculo de los años
+    dias %= 360; // dias libres de meses despues de quitarle los años
     
     mes = dias / 30; // calculo de los meses
     dia =dias % 30; // dias libres despues de quitarle los meses
 
+
+    // correcciones por coincidencia de 12 meses y de 30 días
+    // hay que tener en cuenta que hay que sumarle un mes y 1 día
+    // por lo que no pueden salir 13 meses y 31 días (si los meses los hemos puesto de 30 días)
+
     if (mes == 12)
     {
         // correccion por 12 neses
-        mes -= 1;
+        mes -= 12;
         year += 1;
     }
 
