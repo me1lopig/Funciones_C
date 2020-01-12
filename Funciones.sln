@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cambia_signo", "Cambia_sign
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Impar_vector", "Impar_vector\Impar_vector.vcxproj", "{FFF7F7EA-4200-4B87-8EC7-BC8613C9E794}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Matriz_cuadrado", "Matriz_cuadrado\Matriz_cuadrado.vcxproj", "{D9A8BDB0-7D3C-48F7-B0F7-844D8DCDE7BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{FFF7F7EA-4200-4B87-8EC7-BC8613C9E794}.Release|x64.Build.0 = Release|x64
 		{FFF7F7EA-4200-4B87-8EC7-BC8613C9E794}.Release|x86.ActiveCfg = Release|Win32
 		{FFF7F7EA-4200-4B87-8EC7-BC8613C9E794}.Release|x86.Build.0 = Release|Win32
+		{D9A8BDB0-7D3C-48F7-B0F7-844D8DCDE7BE}.Debug|x64.ActiveCfg = Debug|x64
+		{D9A8BDB0-7D3C-48F7-B0F7-844D8DCDE7BE}.Debug|x64.Build.0 = Debug|x64
+		{D9A8BDB0-7D3C-48F7-B0F7-844D8DCDE7BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{D9A8BDB0-7D3C-48F7-B0F7-844D8DCDE7BE}.Debug|x86.Build.0 = Debug|Win32
+		{D9A8BDB0-7D3C-48F7-B0F7-844D8DCDE7BE}.Release|x64.ActiveCfg = Release|x64
+		{D9A8BDB0-7D3C-48F7-B0F7-844D8DCDE7BE}.Release|x64.Build.0 = Release|x64
+		{D9A8BDB0-7D3C-48F7-B0F7-844D8DCDE7BE}.Release|x86.ActiveCfg = Release|Win32
+		{D9A8BDB0-7D3C-48F7-B0F7-844D8DCDE7BE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
