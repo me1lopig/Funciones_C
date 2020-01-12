@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector_1", "vector_1\vector
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Suma_vector", "Suma_vector\Suma_vector.vcxproj", "{AFE0C2C1-2220-4327-A202-4D0136E8ECEB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ordenacion_vector", "Ordenacion_vector\Ordenacion_vector.vcxproj", "{95CE6875-BEDE-4583-975F-A40683A2E357}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{AFE0C2C1-2220-4327-A202-4D0136E8ECEB}.Release|x64.Build.0 = Release|x64
 		{AFE0C2C1-2220-4327-A202-4D0136E8ECEB}.Release|x86.ActiveCfg = Release|Win32
 		{AFE0C2C1-2220-4327-A202-4D0136E8ECEB}.Release|x86.Build.0 = Release|Win32
+		{95CE6875-BEDE-4583-975F-A40683A2E357}.Debug|x64.ActiveCfg = Debug|x64
+		{95CE6875-BEDE-4583-975F-A40683A2E357}.Debug|x64.Build.0 = Debug|x64
+		{95CE6875-BEDE-4583-975F-A40683A2E357}.Debug|x86.ActiveCfg = Debug|Win32
+		{95CE6875-BEDE-4583-975F-A40683A2E357}.Debug|x86.Build.0 = Debug|Win32
+		{95CE6875-BEDE-4583-975F-A40683A2E357}.Release|x64.ActiveCfg = Release|x64
+		{95CE6875-BEDE-4583-975F-A40683A2E357}.Release|x64.Build.0 = Release|x64
+		{95CE6875-BEDE-4583-975F-A40683A2E357}.Release|x86.ActiveCfg = Release|Win32
+		{95CE6875-BEDE-4583-975F-A40683A2E357}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
