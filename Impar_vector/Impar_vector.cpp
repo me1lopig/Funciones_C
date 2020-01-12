@@ -19,7 +19,7 @@ int main()
 {
     
     // declaracion de variables
-    int vector[11] = { 1,2,3,4,5,6,7,8,9,10,11 };
+    int vector[11] = { -1,2,-3,4,5,6,7,8,9,10,11 };
     int impar[11] ;
     int dim_v = sizeof(vector) / sizeof(*vector); // dimesion maxima de los vectores
     int n_imp = 0; // numero de elementos impares de vector
