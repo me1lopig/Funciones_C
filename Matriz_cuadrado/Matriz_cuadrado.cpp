@@ -8,8 +8,8 @@
 using namespace std;
 
 // dimensiones de las matrices 
-#define COL 3
-#define FIL 3
+#define COL 4
+#define FIL 4
 
 //declaracion de funciones
 void cuadrado(int[][COL],int [][COL], int, int); // calcula el cuadrado de los elementos de una matriz
