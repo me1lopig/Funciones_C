@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include"f_factorial.h" //llamada al archivo de encabezado de las funciones
+#include"funciones.h" //llamada al archivo de encabezado de las funciones
 
 using namespace std;
 
@@ -13,6 +13,7 @@ int main()
 
     int num1;
     double n_fact;
+    double n_suma;
 
     cout << "Introduce el numero ";
     cin >> num1;
@@ -29,6 +30,18 @@ int main()
     cout << "Calculo del factorial con recursividad" << endl;
     cout << "El factorial de " << num1 << " es " << n_fact << endl;
 
+
+    // calculo de la suma  no recursivo
+    n_suma = suma(num1);
+
+    cout << "Calculo de la suma de los terminos sin recursividad" << endl;
+    cout << "La suma de los terminos de  " << num1 << " es " << n_suma << endl;
+
+    // calculo de la suma de forma recursiva
+    n_suma = suma_r(num1);
+
+    cout << "Calculo de la suma de los ternimos con recursividad " << endl;
+    cout << "La suma de los terminos de " << num1 << " es " << n_suma << endl;
 
     // parada para terminar
     cout << "\nPulsa una tecla para terminar ";

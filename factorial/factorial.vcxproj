@@ -149,7 +149,7 @@
     <ClCompile Include="factorial.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="f_factorial.h" />
+    <ClInclude Include="funciones.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
