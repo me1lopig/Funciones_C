@@ -18,7 +18,7 @@ int main()
     // declacion de las variables
 
     int num1;
-    double n_fibonacci;
+
   
     do
     {
