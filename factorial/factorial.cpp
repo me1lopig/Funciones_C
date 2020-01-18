@@ -15,8 +15,14 @@ int main()
     double n_fact;
     double n_suma;
 
-    cout << "Introduce el numero ";
-    cin >> num1;
+
+    do 
+    {
+        cout << "Introduce el numero ";
+        cin >> num1;
+
+    } while (num1 < 0);
+
 
     // calculo del factorial no recursivo
     n_fact = factorial(num1);
